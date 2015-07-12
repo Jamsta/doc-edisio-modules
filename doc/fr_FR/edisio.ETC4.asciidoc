@@ -1,58 +1,39 @@
-= Edisio EMV-400 "Eclairage"
+= Edisio ETC4 "Télécommande e-Trendy"
 
 * *Le module*
 
-image::../images/emv.400/module.jpg[width=550,align="center"]
+image::../images/etc4/module.jpg[width=250,align="center"]
 
 * *Le visuel Jeedom*
 
-image::../images/emv.400/vue_default_eclairage.jpg[width=200,align="center"]
+image::../images/emv.400/vue_default.jpg[width=200,align="center"]
 
 == Résumé
 
-Le micromodule EMV-400 va vous permettre de gérer un moteur bidirectionnel ou appareillages électriques. Il permet le contrôle de 2 sorties Marche/Arrêt ou d'un volet roulant Ouvrir/Stop/Fermer.
+La mini télécommande e-Trendy de 4 canaux est simple, robuste et design, elle a été crée pour plaire. Elle se relie facilement aux récepteurs et émetteurs et peut contrôler vos éclairages Marche/Arrêt et dimmables, motorisations, stores, volets, portails, portes de garage. Elle comporte deux modes de programmation.
 
 De plus, l'interaction avec d'autres protocoles est possible, il est contrôlable par des interrupteurs et/ou télécommandes de la marque Edisio, directement depuis Jeedom, mais aussi par n'importe quel émetteur Z-Wave de votre réseau.
  
-Chaque module Edisio sur réseau électrique, à la possibilité de fonctionner comme un répéteur sans fil avec les autres modules, afin d'assurer une couverture totale de votre habitation.
-
-Pour finir, chaque module peut être utilisé en mode déporté, c'est très pratique car cela permet d'associer un émetteur sans devoir accéder au récepteur.
-
-[IMPORTANT] 
-Le neutre est nécessaire que pour le mode "Volet"
-
 == Fonctions
 
-* 2 sorties par relais alimentées
-* S'installe dans une boite d'encastrement de 55mm ou directement dans les caissons des ouvrants
-* Mode d'usage: Marche/Arrêt, Ouvrir/Stop/Fermer
-* Compatible avec les moteurs à fin de course électronique et mécanique
-* Mode déporté
-* Fonction minuterie: Mode Marche/Arrêt: 30min ou 60min
-* Réplique du signal (répéteur)
-* Micromodule bidirectionnel
-* Niveau de batterie faible de l'émetteur
+* Contrôle en Marche/Arrêt, Ouvrir/Stop/Fermer, Dimmable, Motorisation, Stores, Volets, Portails, Portes de garage
 * Petit, discret et esthétique
 * Facilité d'utilisation et d'installation
 
 == Caractéristiques Techniques
 
-* Type de module: Récepteur Edisio
-* Alimentation: 230VAC, 50Hz
-* Câblage: 4 fils, 2 pour les commandes et 2 pour l'alimentation
+* Type de module: Emetteur Edisio
+* Alimentation: 3VDC (Pile Lithium CR2430)
+*Canaux: 4
 * Fréquence: 868,3 MHz
-* Sorties alimentées: 2 relais
-* Puissance maximum: 2A par sortie
-* Charge résistive: 460W
-* Autres charges: 100W
-* Température de fonctionnement: -10°C +45°C
-* Dimensions: 48x46x26mm
-* Degré de protection: IP20
+* Température de fonctionnement: -10°C +50°C
+* Dimensions: 56x28x12mm
+* Degré de protection: IP40
 
 == Données du module
 
 * Marque : Edisio Smart Home
-* Nom : EMV-400
+* Nom : ETC4
 
 == Configuration générale
 
@@ -95,25 +76,22 @@ image::../images/emv.400/diagramme.jpg[align="center"]
 
 La fonction minuterie permet l'extinction automatique des relais au bout de 30 ou 60 minutes.
 
-* Activer : Appuyer 4x "R" du récepteur, confirmation par un simple bip sonore en continu
-* Désactiver: Appuyer 5x "R" du récepteur , confirmation par 3 simples bip sonores.
+[NOTE]
+Cette fonction ne sert qu'en mode "Eclairage"
 
-* Minuterie de 30 minutes: DIP Switch 3 en haut
-* Minuterie de 60 minutes: DIP Switch 3 en bas
+== Le mode "Volet"
 
-== Le mode "Eclairage"
-
-Le mode "Eclairage" permet de piloter 2 appareils électriques à distance.
+Le mode "Volet" permet de piloter un moteur bidirectionnel à fin de course électronique et mécanique à distance.
 
 [IMPORTANT]
-Le neutre n'est pas nécessaire
+Le neutre est nécessaire
 
 ==== Configuration et raccordements électriques :
 
-image::../images/emv.400/mode_eclairage.jpg[align="center"]
+image::../images/emv.400/mode_moteur.jpg[align="center"]
 
 [IMPORTANT]
-Afin que le module soit en mode "Eclairage" le DIP Switch 2 doit être en haut
+Afin que le module soit en mode "Volet" le DIP Switch 2 doit être en bas
 [IMPORTANT]
 NE JAMAIS BRANCHER SOUS TENSION
 
@@ -130,22 +108,21 @@ image::../images/emv.400/crea_equip.jpg[align="center"]
 [NOTE]
 Pensez à activer votre nouvel équipement.
 
-Dans la liste d'équipement, à droite, sélectionner "Interrupteur 2 boutons (mode ON/OFF)" :
+Dans la liste d'équipement, à droite, sélectionner "Micro-module volet roulant" :
 
-image::../images/emv.400/infos_equip_eclairage.jpg[align="center"]
+image::../images/emv.400/infos_equip.jpg[align="center"]
 
 ==== Commandes
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes associées au module :
 
-image::../images/emv.400/commande_eclairage.jpg[Commandes,align="center"]
+image::../images/emv.400/commande.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* On : C'est la commande qui permet d'activer le relais 1
-* Off : C'est la commande qui de désactiver le relais 1
-* On 2 : C'est la commande qui permet d'activer le relais 2
-* Off 2: C'est la commande qui permet de désactiver le relais 2
+* Ouvrir : C'est la commande qui permet d'ouvrir le volet
+* Stop : C'est la commande qui permet de stopper le mouvement du volet
+* Fermer : C'est la commande qui permet fermer le volet
 * E : C'est la commande qui permet de se servir du mode déporté
 
 ==== Association du micromodule à Jeedom
@@ -169,6 +146,9 @@ Chaque sortie est à associer à une commande Jeedom:
 - Dans les 10 sec, appuyez sur "Tester" de la commande "Fermer" dans Jeedom, un bip sonore en continu signale l'association de la sortie 2 à Jeedom.
 - Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour valider l'association, le bip sonore s'arrête.
 
+[NOTE]
+Il n'y a pas besoin d'associer la commande "Stop", celle-ci se fait automatiquement.
+
 ===== Méthode déportée
 
 Nous en avons parlé au début de cette documentation. Dans le cas, de modules déjà encastrés, dans les faux-plafonds ou même les combles. Cette méthode permet l'ajout d'un nouvel émetteur sans accéder au "R" du récepteur.
@@ -190,10 +170,6 @@ C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace d�
 *** Appuyez 2x sur "Tester" de la commande "E" dans Jeedom, double bip sonores (court en répétition) signale la programmation de la sortie 2 activée.
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 2.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
-
-== Visuel alternatif
-
-image::../images/emv.400/vue_alt_eclairage.jpg[Commandes,align="center"]
 
 == F.A.Q.
 
