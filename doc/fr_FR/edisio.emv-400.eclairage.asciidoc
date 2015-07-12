@@ -1,4 +1,4 @@
-= Edisio EMV-400 "Volet roulant/Eclairage"
+= Edisio EMV-400 "Eclairage"
 
 * *Le module*
 
@@ -6,7 +6,7 @@ image::../images/emv.400/module.jpg[width=550,align="center"]
 
 * *Le visuel Jeedom*
 
-image::../images/emv.400/vue_default.jpg[width=200,align="center"]
+image::../images/emv.400/vue_default_eclairage.jpg[width=200,align="center"]
 
 == Résumé
 
@@ -72,6 +72,9 @@ image::../images/emv.400/bouton_association.jpg[align="center"]
 
 image::../images/emv.400/dip_switch.jpg[align="center"]
 
+[NOTE]
+Afin d'éviter des redondances inutiles, ne jamais activer le mode "Répéteur" sur tous les récepteurs, 5 récepteurs au maximum par installation.
+
 * Le bouton "R", va permettre d'associer un émetteur au récepteur, d'activer ou désactiver la fonction minuterie et d'activer le mode déporté :
 
 image::../images/emv.400/bouton_r.jpg[align="center"]
@@ -88,21 +91,31 @@ Référez-vous à la documentation du fabricant, afin de pouvoir configurer votr
 
 image::../images/emv.400/diagramme.jpg[align="center"]
 
-== Les différents modes
+== Fonction minuterie
 
-=== Le mode "Volet"
+La fonction minuterie permet l'extinction automatique des relais au bout de 30 ou 60 minutes.
 
-Le mode "Volet" permet de piloter un moteur bidirectionnel à fin de course électronique et mécanique à distance.
+* Activer : Appuyer 4x "R" du récepteur, confirmation par un simple bip sonore en continu
+* Désactiver: Appuyer 5x "R" du récepteur , confirmation par 3 simples bip sonores.
+
+* Minuterie de 30 minutes: DIP Switch 3 en haut
+* Minuterie de 60 minutes: DIP Switch 3 en bas
+
+== Le mode "Eclairage"
+
+Le mode "Eclairage" permet de piloter 2 appareils électriques à distance.
 
 [IMPORTANT]
-Le neutre est nécessaire
+Le neutre n'est pas nécessaire
 
 ==== Configuration et raccordements électriques :
 
-image::../images/emv.400/mode_moteur.jpg[align="center"]
+image::../images/emv.400/mode_eclairage.jpg[align="center"]
 
 [IMPORTANT]
-Afin que le module soit en mode "Volet" le DIP Switch 2 doit être en bas
+Afin que le module soit en mode "Eclairage" le DIP Switch 2 doit être en haut
+[IMPORTANT]
+NE JAMAIS BRANCHER SOUS TENSION
 
 ==== Création du module dans Jeedom
 
@@ -117,29 +130,30 @@ image::../images/emv.400/crea_equip.jpg[align="center"]
 [NOTE]
 Pensez à activer votre nouvel équipement.
 
-Dans la liste d'équipement, à droite, sélectionner "Micro-module volet roulant" :
+Dans la liste d'équipement, à droite, sélectionner "Interrupteur 2 boutons (mode ON/OFF)" :
 
-image::../images/emv.400/infos_equip.jpg[align="center"]
+image::../images/emv.400/infos_equip_eclairage.jpg[align="center"]
 
 ==== Commandes
 
 Une fois votre équipement sauvegardé, vous devriez obtenir les commandes associées au module :
 
-image::../images/emv.400/commande.jpg[Commandes,align="center"]
+image::../images/emv.400/commande_eclairage.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Ouvrir : C'est la commande qui permet d'ouvrir le volet
-* Stop : C'est la commande qui permet de stopper le mouvement du volet
-* Fermer : C'est la commande qui permet fermer le volet
+* On : C'est la commande qui permet d'activer le relais 1
+* Off : C'est la commande qui de désactiver le relais 1
+* On 2 : C'est la commande qui permet d'activer le relais 2
+* Off 2: C'est la commande qui permet de désactiver le relais 2
 * E : C'est la commande qui permet de se servir du mode déporté
 
 ==== Association du micromodule à Jeedom
 
-Afin, que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio, il va falloir mettre le micromodule est en mode association. 
+Afin, que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio.
 
 [NOTE]
-Le gros avantage d'Edisio, c'est qu'un récepteur peut avoir plusieurs émetteurs associés
+Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir plusieurs émetteurs associés
 
 ===== Méthode standard
 
@@ -154,9 +168,6 @@ Chaque sortie est à associer à une commande Jeedom:
 - Appuyez 2x sur le "R" du récepteur, double bip sonore (court en répétition) signalent la programmation de la sortie 2 activée.
 - Dans les 10 sec, appuyez sur "Tester" de la commande "Fermer" dans Jeedom, un bip sonore en continu signale l'association de la sortie 2 à Jeedom.
 - Dans les 10 sec, appuyez à nouveau sur "R" du récepteur, pour valider l'association, le bip sonore s'arrête.
-
-[NOTE]
-Il n'y a pas besoin d'associer la commande "Stop", celle-ci se fait automatiquement.
 
 ===== Méthode déportée
 
@@ -180,10 +191,16 @@ C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace d�
 *** Dans les 10 sec, appuyez sur une des touches "C" du nouvel émetteur à associer, un bip sonore en continu signale l'association de la sortie 2.
 *** Dans les 10 sec, appuyez à nouveau sur "Tester" de la commande "E" dans Jeedom, pour valider l'association, le bip sonore s'arrête.
 
+== Visuel alternatif
+
+image::../images/emv.400/vue_alt_eclairage.jpg[Commandes,align="center"]
+
 == F.A.Q.
 
 Comment effacer la mémoire du récepteur ?::
 Appuyez et maintenez 10 sec sur le "R", jusqu'au bip sonore continu.
 
+Comment piloter le récepteur via un émetteur Z-Wave?::
+Avec l'utilisation du plugin Scénario de Jeedom.
 
 #_@Jamsta_#
