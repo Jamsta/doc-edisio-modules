@@ -139,7 +139,7 @@ image::../images/emv.400/commande.jpg[Commandes,align="center"]
 
 [underline]#Voici la liste des commandes :#
 
-* Etat : C'est la commande qui permet de similer le retour d'état 
+* Etat : C'est la commande qui permet de simuler le retour d'état 
 * Monter : C'est la commande qui permet d'ouvrir le volet
 * Stop : C'est la commande qui permet de stopper le mouvement du volet
 * Descendre : C'est la commande qui permet fermer le volet
