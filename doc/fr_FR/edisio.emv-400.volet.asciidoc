@@ -72,6 +72,9 @@ image::../images/emv.400/bouton_association.jpg[align="center"]
 
 image::../images/emv.400/dip_switch.jpg[align="center"]
 
+[NOTE]
+Afin d'éviter des redondances inutiles, ne jamais activer le mode "Répéteur" sur tous les récepteurs, 5 récepteurs au maximum par installation.
+
 * Le bouton "R", va permettre d'associer un émetteur au récepteur, d'activer ou désactiver la fonction minuterie et d'activer le mode déporté :
 
 image::../images/emv.400/bouton_r.jpg[align="center"]
@@ -88,6 +91,13 @@ Référez-vous à la documentation du fabricant, afin de pouvoir configurer votr
 
 image::../images/emv.400/diagramme.jpg[align="center"]
 
+== Fonction minuterie
+
+La fonction minuterie permet l'extinction automatique des relais au bout de 30 ou 60 minutes.
+
+[NOTE]
+Cette fonction ne sert qu'en mode "Eclairage"
+
 == Le mode "Volet"
 
 Le mode "Volet" permet de piloter un moteur bidirectionnel à fin de course électronique et mécanique à distance.
@@ -101,6 +111,8 @@ image::../images/emv.400/mode_moteur.jpg[align="center"]
 
 [IMPORTANT]
 Afin que le module soit en mode "Volet" le DIP Switch 2 doit être en bas
+[IMPORTANT]
+NE JAMAIS BRANCHER SOUS TENSION
 
 ==== Création du module dans Jeedom
 
