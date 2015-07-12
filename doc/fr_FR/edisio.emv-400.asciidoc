@@ -1,4 +1,4 @@
-= Edisio EMV-400 "Volet roulant/Eclairage"
+= Edisio EMV-400 "Volet roulant"
 
 * *Le module*
 
@@ -88,9 +88,7 @@ Référez-vous à la documentation du fabricant, afin de pouvoir configurer votr
 
 image::../images/emv.400/diagramme.jpg[align="center"]
 
-== Les différents modes
-
-=== Le mode "Volet"
+== Le mode "Volet"
 
 Le mode "Volet" permet de piloter un moteur bidirectionnel à fin de course électronique et mécanique à distance.
 
@@ -136,10 +134,10 @@ image::../images/emv.400/commande.jpg[Commandes,align="center"]
 
 ==== Association du micromodule à Jeedom
 
-Afin, que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio, il va falloir mettre le micromodule est en mode association. 
+Afin, que vous puissiez interagir avec Jeedom, comme si c'était un émetteur Edisio.
 
 [NOTE]
-Le gros avantage d'Edisio, c'est qu'un récepteur peut avoir plusieurs émetteurs associés
+Un des gros avantages d'Edisio, c'est qu'un récepteur peut avoir plusieurs émetteurs associés
 
 ===== Méthode standard
 
@@ -185,5 +183,7 @@ C'est fait, votre Jeedom est à présent associé et sa commande "E" remplace d�
 Comment effacer la mémoire du récepteur ?::
 Appuyez et maintenez 10 sec sur le "R", jusqu'au bip sonore continu.
 
+Comment piloter le récepteur via un émetteur Z-Wave?::
+Avec l'utilisation du plugin Scénario de Jeedom.
 
 #_@Jamsta_#
