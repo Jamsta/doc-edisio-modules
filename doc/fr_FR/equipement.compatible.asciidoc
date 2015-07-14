@@ -4,27 +4,29 @@
 |===
 |Nom|Remarque|Lien
 
-|Edisio - Émetteur micromodule (230V) - 2 canaux||http://www.domadoo.fr/fr/peripheriques/2777-edisio-emetteur-8683-mhz-micromodule-230v-2-canaux-5420074900702.html[Acheter]
+|Edisio - EMM-230 - Émetteur micromodule (230V) - 2 canaux||http://www.domadoo.fr/fr/peripheriques/2777-edisio-emetteur-8683-mhz-micromodule-230v-2-canaux-5420074900702.html[Acheter]
 
-|Edisio - Capteur de température ||http://www.domadoo.fr/fr/peripheriques/2788-edisio-capteur-de-temperature-8683mhz-5420074900825.html[Acheter]
+|Edisio - ETS-200 - Capteur de température ||http://www.domadoo.fr/fr/peripheriques/2788-edisio-capteur-de-temperature-8683mhz-5420074900825.html[Acheter]
 
-|Edisio - Émetteur "Smile" - 1 canal|Tous les "Smile" sont compatible|http://www.domadoo.fr/fr/peripheriques/2782-edisio-emetteur-8683-mhz-smile-bleu-1-canal-5420074900757.html[Acheter]
+|Edisio - ETC1-L01 - Émetteur "Smile" - 1 canal|Tous les "Smile" sont compatible|http://www.domadoo.fr/fr/peripheriques/2782-edisio-emetteur-8683-mhz-smile-bleu-1-canal-5420074900757.html[Acheter]
 
-|Edisio - Récepteur Marche/Arrêt/Dimmer||http://www.domadoo.fr/fr/peripheriques/2779-edisio-recepteur-8683-mhz-marchearretdimmer-5420074900726.html[Acheter]
+|Edisio - EMSD-300 - Récepteur Marche/Arrêt/Dimmer||http://www.domadoo.fr/fr/peripheriques/2779-edisio-recepteur-8683-mhz-marchearretdimmer-5420074900726.html[Acheter]
 
-|Edisio - Récepteur Marche/Arrêt/Dimmer - sans neutre||http://www.domadoo.fr/fr/peripheriques/2780-edisio-recepteur-8683-mhz-marchearretdimmer-sans-phase-neutre-5420074900733.html[Acheter]
+|Edisio - EMSD-300A - Récepteur Marche/Arrêt/Dimmer - sans neutre||http://www.domadoo.fr/fr/peripheriques/2780-edisio-recepteur-8683-mhz-marchearretdimmer-sans-phase-neutre-5420074900733.html[Acheter]
 
-|Edisio - Récepteur 2x Marche/Arrêt ou Ouvrir/Stop/Fermer (2 x 2A)||http://www.domadoo.fr/fr/peripheriques/2781-edisio-recepteur-8683-mhz-2x-marchearret-ou-ouvrirstopfermer-2-x-2a-5420074900740.html[Acheter]
+|Edisio - EMV-400 - Récepteur 2x Marche/Arrêt ou Ouvrir/Stop/Fermer (2 x 2A)||https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.EMV-400_Eclairage.html[Documentation éclairage] https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.EMV-400_Volet.html[Documentation volet] http://www.domadoo.fr/fr/peripheriques/2781-edisio-recepteur-8683-mhz-2x-marchearret-ou-ouvrirstopfermer-2-x-2a-5420074900740.html[Acheter]
 
-|Edisio - Télécommande e-Trendy - 4 Canaux||http://www.domadoo.fr/fr/peripheriques/2785-edisio-telecommande-e-trendy-8683-mhz-4-canaux-5420074900788.html[Acheter]
+|Edisio - ETC4 - Télécommande e-Trendy - 4 Canaux||https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.ETC4_Telecommande.html[Documentation] http://www.domadoo.fr/fr/peripheriques/2785-edisio-telecommande-e-trendy-8683-mhz-4-canaux-5420074900788.html[Acheter]
 
-|Edisio - Capteur d'ouverture||http://www.domadoo.fr/fr/peripheriques/2787-edisio-capteur-d-ouverture-8683mhz-5420074900818.html[Acheter]
+|Edisio - EOS-200 - Capteur d'ouverture||http://www.domadoo.fr/fr/peripheriques/2787-edisio-capteur-d-ouverture-8683mhz-5420074900818.html[Acheter]
 
-|Edisio - Capteur de mouvement||http://www.domadoo.fr/fr/peripheriques/2789-edisio-capteur-de-mouvement-8683mhz-5420074900832.html[Acheter]
+|Edisio - EMS-200 - Capteur de mouvement||http://www.domadoo.fr/fr/peripheriques/2789-edisio-capteur-de-mouvement-8683mhz-5420074900832.html[Acheter]
 
 |Edisio - Interrupteur|Tous les interrupteurs sont compatible|http://www.domadoo.fr/fr/recherche?controller=search&orderby=position&orderway=desc&search_query=EDISIO+Interrupteur&submit_search=[Acheter]
 
-|Edisio - Récepteur DIN RAIL - Marche/Arrêt/Impulsionnel - 4 x 10A||http://www.domadoo.fr/fr/peripheriques/2773-edisio-recepteur-din-rail-8683-mhz-marchearretimpulsionnel-4-x-10a-5420074900030.html[Acheter]
+|Edisio - EDR-B4 - Récepteur DIN RAIL - Marche/Arrêt/Impulsionnel - 4 x 10A||http://www.domadoo.fr/fr/peripheriques/2773-edisio-recepteur-din-rail-8683-mhz-marchearretimpulsionnel-4-x-10a-5420074900030.html[Acheter]
+
+|Edisio - EDR-D4 - Récepteur DIN RAIL - Marche/Arrêt/Dimmer - 4 x 500W||http://www.domadoo.fr/fr/peripheriques/2774-edisio-recepteur-din-rail-8683-mhz-marchearretdimmer-4-x-500w--5420074900047.html[Acheter]
 
 |===
 
