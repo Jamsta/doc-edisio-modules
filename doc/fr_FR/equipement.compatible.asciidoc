@@ -16,7 +16,7 @@
 
 |Edisio - EMV-400 - Récepteur 2x Marche/Arrêt ou Ouvrir/Stop/Fermer (2 x 2A)||https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.EMV-400_Eclairage.html[Documentation éclairage] - https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.EMV-400_Volet.html[Documentation volet] - http://www.domadoo.fr/fr/peripheriques/2781-edisio-recepteur-8683-mhz-2x-marchearret-ou-ouvrirstopfermer-2-x-2a-5420074900740.html[Acheter]
 
-|Edisio - ETC4 - Télécommande e-Trendy - 4 Canaux||https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.ETC4_Telecommande.html[Documentation] - http://www.domadoo.fr/fr/peripheriques/2785-edisio-telecommande-e-trendy-8683-mhz-4-canaux-5420074900788.html[Acheter]
+|Edisio - ETC4 - Télécommande e-Trendy - 4 Canaux||https://jeedom.fr/doc/documentation/edisio-modules/fr_FR/doc-edisio-modules-edisio.ETC4_Télécommande.html[Documentation] - http://www.domadoo.fr/fr/peripheriques/2785-edisio-telecommande-e-trendy-8683-mhz-4-canaux-5420074900788.html[Acheter]
 
 |Edisio - EOS-200 - Capteur d'ouverture||http://www.domadoo.fr/fr/peripheriques/2787-edisio-capteur-d-ouverture-8683mhz-5420074900818.html[Acheter]
 
