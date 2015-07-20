@@ -10,9 +10,9 @@ image::../images/ems200/ems200.vue-defaut.jpg[align="center"]
 
 == Résumé
 
-Placé dans un couloir, le salon, le gararge de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané.
+Placé dans un couloir, le salon, le garage de votre maison par exemple, le capteur de mouvement détecte une présence, le changement d'état est instantané.
 
-Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur Led intégré signal tous changement d'état. 
+Grâce à son angle de vision étendu et sa portée, il permet de sécuriser un large périmètre. L'indicateur LED intégré signal tous changement d'état. 
 
 == Fonctions
 
@@ -57,6 +57,12 @@ Vous trouverez le bouton "E" qui est le bouton d'association du capteur de temp�
 
 image::../images/ems200/ems200.bouton-e.jpg[align="center"]
 
+=== Détection 
+
+Le capteur détecte le moindre mouvement dans un rayon d'environ 6M
+
+image::../images/ems200/ems200.detection.jpg[align="center"]
+
 === Réglage de la minuterie
 
 Par défaut, la minuterie est désactivée. Ce paramètre, sert à configurer le délai :
@@ -92,7 +98,7 @@ Une fois votre équipement associé à Jeedom, diverses informations seront disp
 image::../images/ems200/ems200.informations.jpg[Commandes,align="center"]
 
 * Création : Indique la date à laquelle l'équipement à était crée
-* Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
+* Communication : Indique la dernière communication enregistrée entre Jeedom et le module
 * Batterie : Indique l'état de la batterie des modules à piles
 * Status : Retourne le status du module
 

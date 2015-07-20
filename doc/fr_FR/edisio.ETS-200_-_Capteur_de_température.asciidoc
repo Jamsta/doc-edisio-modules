@@ -10,11 +10,11 @@ image::../images/ets200/ets200.vue-defaut.jpg[align="center"]
 
 == Résumé
 
-Placé dans une pièce, la température de la pièce voulue remontera automatiquement. De plus, associé à un récepteur de type EMR-2000 ou EDR-B4 (4 sorties) vous aurez un thermostat connecté et contrôlable depuis n'impotre ou dans le monde à travers internet.
+Placé dans une pièce, la température de la pièce voulue remontera automatiquement. De plus, associé à un récepteur de type EMR-2000 ou EDR-B4 (4 sorties) vous aurez un thermostat connecté et contrôlable depuis n'importe ou dans le monde à travers internet.
 
 Le signal est uniquement envoyé après avoir détectée une différence de température de o,5°C ou 1°C ou toutes les 5 minutes. De plus, le capteur est compact et discret.
 
-L'indicateur Led intégré signal tous changement d'état. 
+L'indicateur LED intégré signal tous changement d'état. 
 
 == Fonctions
 
