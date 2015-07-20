@@ -1,0 +1,104 @@
+= Edisio ETC1-L01 "Télécommande Smile"
+
+* *Le module*
+
+image::../images/etc1/etc1.module-1.jpg[width=250,align="center"]
+image::../images/etc1/etc1.module-2.png[align="center"]
+
+* *Le visuel Jeedom*
+
+image::../images/etc1/etc1.vue-default.jpg[align="center"]
+
+== Résumé
+
+Les télécommandes “Smile” ont un canal, elles sont idéales pour la table de chevet, salle de bain et surtout pour les enfants, car celles-ci sont très robustes grâce au matériau utilisé. Ultra simples et à la fois “fun” elles ont pour but d’être pratiques dans l’habitat. Elles existent en trois coloris différents.
+
+Elles se relient facilement aux différents récepteurs et peuvent donc contrôler les éclairages Marche/Arrêt, les éclairages variables, les volets, portails, portes de garage. Disponibles en 3 coloris.
+
+De plus, l'interaction avec d'autres protocoles est possible, il peut interagir avec les récepteurs de la marque Edisio, avec Jeedom, mais aussi par n'importe quel récepteur Z-Wave de votre réseau.
+ 
+== Fonctions
+
+* Mode d'usage : Eclairage, Variateur
+* Petit, discret et esthétique
+* Facilité d'utilisation et d'installation
+
+== Caractéristiques Techniques
+
+* Type de module : Emetteur Edisio
+* Alimentation : 3VDC (Pile Lithium CR2032)
+* Canaux : 1
+* Protocole radio : 868,3 MHz
+* Portée en champs libre : 100 M
+* Température de fonctionnement : -10°C +50°C
+* Dimensions : 65x18mm
+* Degré de protection : IP64
+
+image::../images/etc1/etc1.dimmension.png[align="center"]
+
+== Données du module
+
+* Marque : Edisio Smart Home
+* Nom : ETC1
+* Référence : P01 / Y01 / L01
+
+== Configuration générale
+
+Pour configurer le plugin Edisio et associer un module à Jeedom, référez-vous à cette link:https://www.jeedom.fr/doc/documentation/plugins/edisio/fr_FR/edisio.html[documentation].
+
+[IMPORTANT]
+Pour que Jeedom crée automatiquement vos modules émetteurs, n'oubliez pas d'activer l'option dans la configuration du plugin.
+
+=== Diagramme de fonctionnement
+
+Voici le fonctionnement de la télécommande :
+
+image::../images/etc1/etc1.diagramme.jpg[align="center"]
+
+=== Remplacement de la pile
+
+Pour remplacer la pile de votre télécommande, voici la démarche à suivre :
+
+image::../images/etc1/etc1.remplacement-pile.jpg[align="center"]
+
+== Association de la télécommande à Jeedom
+
+L'association d'un émetteur Edisio, ce fait simplement et automatiquement. Il suffit juste d'appuyer sur la touche de votre télécommande.
+
+image::../images/etc1/etc1.touche-c.jpg[Commandes,align="center"]
+
+Une fois, votre équipement associé, vous devriez obtenir ceci :
+
+image::../images/etc1/etc1.general.jpg[align="center"]
+
+=== Commandes
+
+Une fois votre équipement crée, vous devriez obtenir les commandes associées au module :
+
+image::../images/etc1/etc1.commandes.jpg[Commandes,align="center"]
+
+[underline]#Voici la liste des commandes :#
+
+* bt01 : C'est la commande qui permet d'interagir avec le bouton 1
+* Batterie : Indique l'état de la batterie
+
+=== Informations
+
+Une fois votre équipement associé à Jeedom, diverses informations seront disponibles :
+
+image::../images/etc1/etc1.informations.jpg[Commandes,align="center"]
+
+* Création : Indique la date à laquelle l'équipement à était crée
+* Communication : Indique la dernière communication enregistrée entre Jeedom et le micro-module
+* Batterie : Indique l'état de la batterie des modules à piles
+* Status : Retourne le status du module
+
+=== Utilisation
+
+Une fois que votre télécommande est configurée, vous pouvez avec le plugin Scénario de Jeedom, interagir avec votre télécommande sur Jeedom et ses équipements.
+
+[NOTE]
+La télécommande à un retour d'état binaire. 
+
+
+#_@Jamsta_#
